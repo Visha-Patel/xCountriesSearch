@@ -1,0 +1,12 @@
+.countries_container {
+  margin-top: 5rem; /* Leave space for the fixed search bar */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  overflow-y: auto; /* Allow scroll if results overflow */
+  height: calc(100vh - 5rem); /* Adjust height to fit under search bar */
+  width: 100%;
+}

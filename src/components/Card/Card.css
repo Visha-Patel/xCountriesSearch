@@ -1,0 +1,16 @@
+.countryCard{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.CardImg{
+    height: 80px;
+    width: 80px;
+}
